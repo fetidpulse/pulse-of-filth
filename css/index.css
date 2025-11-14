@@ -10,7 +10,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: url('/images/profile.jpg') center/cover no-repeat;
+    background: url('/images/skeleton.jpg') center/cover no-repeat;
     margin: 20px auto;
     animation: rotate 30s linear infinite;
 }
