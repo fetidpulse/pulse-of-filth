@@ -181,7 +181,7 @@ hr {
     color: #f068db;
     text-align: center;
     font-size: 1.3em;
-    margin: 20px auto;
+    margin-bottom: 1.5em;
     line-height: 1.6em;
     text-shadow: 0 0 3px #db47c4, 0 0 6px #31053c;
 }
@@ -190,6 +190,11 @@ hr {
     color: #c69edc;
     text-shadow: 0 0 4px #8b5bbf, 0 0 8px #b45eca;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.telegram-info .strong{
+    color: #ff6b6b;
+    text-shadow: 0 0 5px #ff0000;
 }
 
 button {
