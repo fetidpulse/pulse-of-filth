@@ -198,6 +198,13 @@ hr {
     text-shadow: 0 0 5px #ff0000;
 }
 
+.filthy p{
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+    font-size: 3em;
+    font-weight: bold;
+}
+
 button {
     cursor: pointer;
     background-color: #ddff00;
@@ -229,4 +236,5 @@ button:hover {
     .iban { font-size: 1em; }
     .membership-info p { line-height: 1.6em; font-size: 0.95em; }
     .telegram-info { font-size: 0.95em; }
+    .filthy p { font-size: 2em;}
 }
