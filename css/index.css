@@ -112,6 +112,7 @@ hr {
 }
 
 .summon2 strong {
+    font-size: 1.65em;
     color: #43c0e2;
     text-shadow: 0 0 4px #aac5c5, 0 0 8px #b3c9ce;
 }
@@ -224,6 +225,7 @@ button:hover {
     .cursedcontent h2 { font-size: 1.2em; }
     .summon { font-size: 1.3em; }
     .summon2 { font-size: 0.95em; }
+    .summon2 strong { font-size: 1.12em;}
     .iban { font-size: 1em; }
     .membership-info p { line-height: 1.6em; font-size: 0.95em; }
     .telegram-info { font-size: 0.95em; }
