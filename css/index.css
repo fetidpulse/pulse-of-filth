@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
 body {
     background-color: rgb(78, 19, 133);
     color: #f2e6ff;
@@ -5,8 +7,6 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 
 #skeleton {
     width: 150px;
