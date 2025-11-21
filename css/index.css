@@ -6,6 +6,8 @@ body {
     overflow-x: hidden;
 }
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
 #skeleton {
     width: 150px;
     height: 150px;
