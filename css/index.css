@@ -6,7 +6,6 @@ body {
     overflow-x: hidden;
 }
 
-
 #skeleton {
     width: 150px;
     height: 150px;
@@ -234,6 +233,13 @@ button:hover {
 
 .fck strong{
     color: #f2e6ff;
+}
+
+i{
+    font-size: 2em;
+    color: #ff6b6b;
+    text-shadow: 0 0 5px #ff0000, 0 0 10px #8b0000;
+    margin: 20px 0;
 }
 
 @media (max-width: 767px) {
