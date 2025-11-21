@@ -226,6 +226,15 @@ button:hover {
     box-shadow: 0 0 6px #ff3030;
 }
 
+.fck{
+    color: #c7a5ed;
+    text-shadow: 0 0 4px #011c1c, 0 0 8px #252728;
+}
+
+.fck strong{
+    color: #f2e6ff;
+}
+
 @media (max-width: 767px) {
     .blood { display: none; }
     .ticket h1 { font-size: 2em; }
