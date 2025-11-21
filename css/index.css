@@ -93,7 +93,7 @@ hr {
 .summon {
     font-size: 2em;
     color: #7792e1;
-    text-shadow: 0 0 5px #1e326a, 0 0 10px #252d77;
+    text-shadow: 0 0 4px #e1dada, 0 0 8px #f0e8e8;
     margin: 20px 0;
     animation: pulse 2s infinite alternate;
 }
@@ -238,7 +238,7 @@ button:hover {
 i{
     font-size: 2em;
     color: #7792e1;
-    text-shadow: 0 0 5px #1e326a, 0 0 10px #252d77;
+    text-shadow: 0 0 4px #e1dada, 0 0 8px #f0e8e8;
     margin: 20px 20px;
 }
 
