@@ -260,6 +260,46 @@ a:hover {
     transform: scale(1.06);
 }
 
+.anonymous-notice {
+    background: #0b0b0b;
+    color: #43c0e2;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #43c0e2;
+    border-radius: 12px;
+    font-family: 'Courier New', monospace;
+    text-align: left;
+    line-height: 1.5;
+    box-shadow: 0 0 20px #43c0e2, 0 0 40px #43c0e2 inset;
+    animation: glow 2s infinite alternate;
+}
+
+.anonymous-notice h2, .anonymous-notice h3 {
+    text-align: center;
+    margin: 5px 0;
+    text-shadow: 0 0 10px #43c0e2;
+}
+
+.anonymous-notice h2 {
+    font-size: 1.8em;
+}
+
+.anonymous-notice h3 {
+    font-size: 1.3em;
+    color: #ff43c0e2;
+}
+
+.anonymous-notice p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+@keyframes glow {
+    0% { box-shadow: 0 0 10px #43c0e2, 0 0 20px #43c0e2 inset; }
+    50% { box-shadow: 0 0 20px #43c0e2, 0 0 40px #43c0e2 inset; }
+    100% { box-shadow: 0 0 10px #43c0e2, 0 0 20px #43c0e2 inset; }
+}
+
 @keyframes pulseGlow {
     0% {
         text-shadow: 0 0 4px rgba(67,192,226,0.5);
