@@ -16,3 +16,16 @@ document.addEventListener('click', (e) => {
 closeMenu.addEventListener('click', () => {
     sideMenu.classList.remove('open');
 });
+
+window.addEventListener("load", () => {
+    const popup = document.getElementById("freePopup");
+    const closeBtn = document.getElementById("closePopup");
+
+    setTimeout(() => {
+        popup.classList.add("show");
+    }, 500);
+
+    closeBtn.addEventListener("click", () => {
+        popup.classList.remove("show");
+    });
+});
