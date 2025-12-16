@@ -1,0 +1,92 @@
+body {
+  background-color: #000;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-family: "Creepster", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(178, 41, 199);
+  margin: 0 0 1rem;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  animation: glowPulse 2.5s ease-in-out infinite;
+}
+
+#img {
+  width: 30em;
+  height: 30em;
+  background-image: url("/images/tg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 1.7rem;
+}
+
+.join-btn {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  color: #ff0101;
+  text-decoration: none;
+  padding: 0.7em 2em;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 1, 1, 0.6);
+  background: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  animation: glowFlicker 3s infinite;
+  box-shadow:
+    0 0 10px rgba(255, 0, 0, 0.6),
+    0 0 25px rgba(255, 0, 0, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.join-btn:hover {
+  transform: scale(1.05);
+  box-shadow:
+    0 0 15px rgba(255, 0, 0, 0.9),
+    0 0 35px rgba(180, 120, 255, 0.9);
+}
+
+.join-btn:active {
+  transform: scale(0.97);
+}
+
+@keyframes glowPulse {
+  0%,
+  100% {
+    text-shadow:
+      0 0 5px rgba(180, 120, 255, 0.4),
+      0 0 15px rgba(180, 120, 255, 0.2);
+  }
+  50% {
+    text-shadow:
+      0 0 10px rgba(200, 150, 255, 0.9),
+      0 0 25px rgba(200, 150, 255, 0.6);
+  }
+}
+
+@keyframes glowFlicker {
+  0%,
+  19%,
+  22%,
+  62%,
+  64%,
+  70%,
+  100% {
+    opacity: 1;
+  }
+  20%,
+  21%,
+  63% {
+    opacity: 0.6;
+  }
+}
